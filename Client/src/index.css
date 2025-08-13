@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.title{
+font-family: "Bitcount Grid Double", system-ui;
+}
+  body{
+  font-family: "Roboto", sans-serif;
+  }
