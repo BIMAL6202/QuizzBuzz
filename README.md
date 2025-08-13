@@ -23,6 +23,22 @@ It allows users to **sign up, log in, attempt quizzes, and view results** in a f
 - **Version Control:** Git & GitHub
 
 ---
+## Install dependencies
+
+- cd client
+- npm install vite@latest
+- npm install
+- npm run dev
+  
+## Start the frontend development server
+
+npm run dev
+
+## Go to backend folder and run:
+
+- cd server.js
+- npm install express
+- node server.js/nodemon server.js
 
 ## 📦 Installation & Setup
 
