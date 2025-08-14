@@ -14,6 +14,11 @@ app.use(cors())
 app.use('/auth',AuthRouter)
 app.use('/auth/questions', QuestionRouter)
 
+app.get('/ping', (req, res) => {
+  console.log("Route '/' hit");
+  res.send('PONG');
+});
+
 
 app.listen(Port, () => {
   console.log(`Server is running at http://localhost:${Port}`);
